@@ -200,7 +200,7 @@ fastify.register(async (fastify) => {
                         {
                             type: "function",
                             name: "question_and_answer",
-                            description: "Get answers to customer questions about automotive services and repairs",
+                            description: "Get answers to customer questions about the bookings and other info",
                             parameters: {
                                 type: "object",
                                 properties: {
@@ -211,8 +211,8 @@ fastify.register(async (fastify) => {
                         },
                         {
                             type: "function",
-                            name: "book_tow",
-                            description: "Book a tow service for a customer",
+                            name: "book_reservation",
+                            description: "Book space for a customer.",
                             parameters: {
                                 type: "object",
                                 properties: {
